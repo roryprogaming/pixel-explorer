@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="game-container">
+    <canvas id="gameCanvas" width="400" height="300"></canvas>
+    <div id="ui-panel">
+      <div id="player-stats">
+        <div>HP: <span id="hp">100</span>/100</div>
+        <div>Level: <span id="level">1</span></div>
+        <div>Gold: <span id="gold">0</span></div>
+        <div>Armor: <span id="armor">None</span></div>
+      </div>
+      <div id="page-summary">
+        <h3>Page Summary</h3>
+        <div id="summary-text">Open a page to see summary</div>
+      </div>
+      <button id="summarize-btn">Summarize Current Page</button>
+      <div id="inventory">
+        <h4>Inventory</h4>
+        <ul id="inventory-list"></ul>
+      </div>
+    </div>
+  </div>
+  <script src="game.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
