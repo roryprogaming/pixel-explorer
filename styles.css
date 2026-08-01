@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1a1a1a;
+  color: #fff;
+  width: 700px;
+}
+
+#game-container {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  background-color: #0d0d0d;
+}
+
+#gameCanvas {
+  border: 2px solid #4a90e2;
+  background-color: #87ceeb;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
+
+#ui-panel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #1a1a1a;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#player-stats {
+  background-color: #2a2a2a;
+  padding: 10px;
+  border-radius: 3px;
+  font-size: 12px;
+}
+
+#player-stats div {
+  margin: 4px 0;
+}
+
+#page-summary {
+  background-color: #2a2a2a;
+  padding: 10px;
+  border-radius: 3px;
+  font-size: 11px;
+  max-height: 80px;
+  overflow-y: auto;
+}
+
+#page-summary h3 {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+#summary-text {
+  font-size: 10px;
+  color: #aaa;
+}
+
+#summarize-btn {
+  padding: 8px;
+  background-color: #4a90e2;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#summarize-btn:hover {
+  background-color: #357abd;
+}
+
+#inventory {
+  background-color: #2a2a2a;
+  padding: 10px;
+  border-radius: 3px;
+  font-size: 11px;
+  max-height: 80px;
+  overflow-y: auto;
+}
+
+#inventory h4 {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+#inventory-list {
+  list-style: none;
+  font-size: 10px;
+}
+
+#inventory-list li {
+  padding: 2px 0;
+  color: #4a90e2;
+}
